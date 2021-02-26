@@ -3,5 +3,5 @@ Very Simple Rest API sample/template using: NodejS, ExpressJS, json-server and M
 
 requirements: 
 
-npm install -g json-server 
-npm install (on root directory)
+1)npm install -g json-server 
+2)npm install (on root directory)
