@@ -1,0 +1,31 @@
+{
+  "clientes": [
+    {
+      "id": 2,
+      "nome": "Rachel",
+      "email": "rachel@email.net"
+    },
+    {
+      "id": 3,
+      "nome": "Fernanda",
+      "email": "fernanda@email.net"
+    },
+    {
+      "id": 4,
+      "nome": "Fulano",
+      "email": "fulano@email.net"
+    },
+    {
+      "id": 6,
+      "nome": "Rodrigo",
+      "email": "rod@email.com"
+     
+    },
+    {
+      "id": 7,
+      "nome": "Carol",
+      "email": "carol@email.com"
+      
+    }
+  ]
+}
