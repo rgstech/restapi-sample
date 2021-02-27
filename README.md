@@ -1,5 +1,5 @@
 # restapi-sample
-Very Simple Rest API sample/template using: NodejS, ExpressJS, json-server and MVC Pattern
+Very Simple Rest API sample/template using: NodejS, ExpressJS, json-server and MVC(with models and controllers) Pattern
 
 requirements: 
 
