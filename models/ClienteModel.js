@@ -11,7 +11,8 @@ ClienteModel.prototype.findAll = function(callback){
 
     axios.get(ClienteModel.BASE_URL)
          .then((resp) => resp.data)
-         .then((data) => { callback(data); });
+         .then((data) => { callback(data); })
+         .catch(error => { console.log(error); }); 
 
 }
 
@@ -19,7 +20,8 @@ ClienteModel.prototype.find = function(_id, callback) {
 
   axios.get(ClienteModel.BASE_URL+`/${_id}`)
        .then((resp) => resp.data)
-       .then((data) => { callback(data); });
+       .then((data) => { callback(data); })
+       .catch(error => { console.log(error); }); 
 
 };
 
@@ -43,7 +45,8 @@ ClienteModel.prototype.remove = function(_id, callback) {
 
   axios.delete(ClienteModel.BASE_URL+`/${_id}`)
        .then((resp) => resp.data)
-       .then((data) => { callback(data); });
+       .then((data) => { callback(data); })
+       .catch(error => { console.log(error); }); 
 
 };
 
